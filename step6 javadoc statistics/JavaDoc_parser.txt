@@ -1,0 +1,666 @@
+create the ast node for this scala node.
+converts a proxy object to an object that is writable to an object stream.  this method is called by writereplace() in a proxy class.
+verify that receiveactivedata gives data when active exists, tells that active does not exist and reports error in getting active information
+ returns whether a node corresponds to a simple or a qualified name, such as x or a.b.c or this.a.
+build a cache from the given configurations.
+ the timestamp when the modification of the byol configuration was started. 
+signals to this node that it has been cut during a cut operation, for example, like during a cut/paste operation.
+ sets the width of the line when selected
+ it is the responsibility of the caller to close the stream.
+ returns the number of words in the corpus.
+indicates whether the output manifest should use floating point values for segment duration.
+convert energy from linear scale to db spl scale (comparing energies to the minimum audible energy, one pascal squared).
+returns true precisely when the dialog was cancelled
+ the arn of the application for which to retrieve tags. 
+checks if two relational data types are compatible.
+ performs and operation on this and the next proxy.
+returns all the calendars matching the uuid and company.
+ last segment of path 
+set the localresourcevisibility of the resource to be  localized.
+ some lines to test the violation column after tabs 
+ increment the number of slow appends that have happened.
+ test that shows that a transaction that has aborted is considered to be rolled back, and new statements will be executed in a new transaction
+note. this is a static method!
+ expands the table if possible.
+ marshall the given parameter object.
+ marshall the given parameter object.
+returns the block size (in bytes).
+ timed offer times out if full and elements not taken
+sets the rotation of the displayed image with flip options.
+return the inverse of the specified condition outcome.
+uploads file as input stream to swift. the data stream will be closed after the request.
+ the api id. 
+public function for testing purposes only. returns only the first specific transfers.
+ returns true if field gc is set (has been assigned a value) and false otherwise 
+set default acl to a directory and make sure existing sub dirs/files does not have default acl.
+ test handling of white space.
+ calculate a video bit rate based on the size. the bit rate is scaled based on ratio of video size to 1080p size.
+tell whether string s is a specialchar.
+returns the message digest associated with this stream.
+ the url to the cname for this environment. 
+initialize the remote service component name once so that we can avoid acquiring the packagemanagerservice lock in constructor.
+ modify the transaction associated with the target object such that the only possible outcome of the transaction is to roll back the transaction.
+ repeats source 2d array several times in both horizontal and vertical direction to fill destination array 
+constructs a new invalidrequestexception with the specified error message.
+sets the used space of the worker in bytes.
+the encodedlength (in octets) of the type.  overridden by subtypes. this returns 0 by default.
+is the user identified by this user principal can manage (cancel) the query issued by the given user?
+ how often the scheduled audit takes place. can be one of "daily", "weekly", "biweekly" or "monthly". the start time of each audit is determined by the system. 
+pad or trim so as to produce a string of exactly a certain length.
+ returns the last element in a sequence, or a default value if the sequence contains no elements.
+ the arn of the role which has a policy that grants iot analytics permission to send message data via iot analytics (iotanalytics:batchputmessage). 
+ the value of a threat intel indicator. 
+ creates a new database in a data catalog. 
+ dumps classpath to output stream.
+ computes the average of a sequence of nullable long values that is obtained by invoking a projection function on each element of the input sequence.
+constructor.  this assumes that state can store the tokens securely, and that they should be enabled at all. please use clientauthutils.areworkertokensenabledserver to validate this first.
+this one picks up on dan2 ideas, but seeks to make less distinctions mid sequence by sorting for long words, but to maintain extra distinctions for short words, by always recording the class of the first and last two characters of the word. compared to chris2 on which it is based, it uses more unicode classes, and so collapses things like punctuation more, and might work better with real unicode.
+ if more than maxresults instances match the specified criteria, you can submit another getinstanceshealthstatus request to get the next group of results. specify the value of nexttoken from the previous response in the next request. 
+ performs the provision, returning the object provisioned. 
+ if you configured health checking in the service, the current health status of the service instance. 
+check if the function body exists, and is a place holder single byte function that needs to be fixed.
+ the number of resources in the group. 
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+ a message about the validation exception. 
+transforms the value of the base gauge to the value of this gauge.
+deletes this file (and does not take no for an answer). if necessary, it will have multiple attempts at deleting things.
+ should the detailed task information be returned.
+ invoke the request using the http client. assumes credentials (or lack thereof) have been configured in the executioncontext beforehand.
+assert that a log does not contain the given term.
+returns the function address the operand refers to.
+ reduces the size of the backing arrays to be the specified capacity or less. if the capacity is already less, nothing is done. if the map contains more items than the specified capacity, the next highest power of two capacity is used instead. 
+sets the value of a boolean node; boolean values are represented by 'true' (which equals '0') and 'false' (which equals '1')
+a list of channel ids that that input is attached to (currently an input can only be attached to one channel).
+ get last audible volume before stream was muted. 
+ the name of the region. 
+returns the version of node.js that is runtime is built against. this uses process.versions.node to get the version.
+called to force plugins to terminate any tasks they has running and apply any unsaved data to domain objects or files. if they can't do this or the user cancels then this returns false.
+ the database in the catalog in which the table resides. for hive compatibility, this name is entirely lowercase. 
+this method is called to perform the transformation itself. it is declared abstract; subclasses must implement this method by making it the entry point to their actual body transformation.
+updates an indexed address field for when a block is moved.
+the position in the target collection to place the merge. this can be at the beginning, end or at an explicit position.
+the duration (in seconds) of each segment.
+ test generating the starting offsets from the partition high water marks in kafka.
+dump out abstract syntax tree for a given expression
+retracts the input values from the accumulators.
+ name of the domain. 
+get the cluster info adminclient is using.
+sets the to group id of this depot entry group rel.
+sets the optional nextcontinuationtoken. nextcontinuationtoken is sent when istruncated is true meaning there are more keys in the bucket that can be listed. the next list requests to amazon s3 can be continued by providing this nextcontinuationtoken.
+get the contents of an inputstream as a string using the default character encoding of the platform.  this method buffers the input internally, so there is no need to use a bufferedinputstream.
+ list applicable roles, including the transitive grants, in given session
+tells whether this stream is ready to be read.
+creates a new uiobject for a sibling view or a child of the sibling view,  relative to the present uiobject.
+set customized view to center
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+returns the cts content with the primary key.
+return the fingerprint of the identitykey belonging to contactsdevice.
+ tests that rest client ssl creation fails with bad ssl configuration.
+ deletes a mission profile. 
+ the taget processor architecture for the application. 
+ the id of the certificate. 
+ returns methods collection. creates new collection on first access.
+creates a new project tree model.
+ the state of the cluster. the possible states are creating, active, and failed. 
+traverse the ast until the root node is found.
+ returns the iterable of collections that have the specified provider. 
+gets the base set of operations to use
+ addall of a collection with any null elements throws npe after possibly adding some elements
+ contains fields that are indexed and whose types are already known by the fleet indexing service. 
+returns the number of facts in the fact memory
+ determines if a method has a "similar" signature, especially if wrapping primitive argument types would result in an exactly matching signature.
+ marshall the given parameter object.
+connect a websocket to the specified port, host and relative request uri
+creates a new action object.
+process a response from the certificate server.  the response is obtained from an http post to the url provided by getcertificaterequest.  the public x509 certificate chain and wrapped private key are returned in the returned certificate objec.  the certificate chain is in pem format. the wrapped private key should be stored in application private storage, and used when invoking the signrsa method.
+returns the title of this toolbar.
+returns the current number of successful calls.
+create merge table over the given connection with provided index.
+create a deep copy of the ast subtree at this node. the copy is dangling, i.e. has no parent.
+retrieves current element in the holder and replaces it with newvalue with defined timetolive interval. 
+ specifies whether the apns voip sandbox channel is enabled for the application. 
+ construct a new fully initialized page containing all zero (0) byte data.
+ returns the value as a double.
+ default implementation returns null (no customizer for the rule).
+parse a serialized metadata value from bytes.
+ the gateway groups in the list. 
+returns a dataframegrouping based on an time period
+returns the class name of this batch engine export task.
+this midireceiver will write date to the scheduling buffer.
+ true to enable mapping of aws identity and access management (iam) accounts to database accounts, and otherwise false.   default: false 
+the id of the channel to delete.
+ the maximum number of traffic policy versions that you want amazon route 53 to include in the response body for this request. if the specified traffic policy has more than maxitems versions, the value of istruncated in the response is true, and the value of the trafficpolicyversionmarker element is the id of the first version that route 53 will return if you submit another request. 
+ the number of apps. 
+ the current status of the workflow type. 
+return a drawable object associated with a particular resource id and styled for the theme.
+ return the issuer ca part of the policy map.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+get the maximum resource allocation for the given queue. if the max is not set, return the default max.
+return the number of keys in the selected database.
+ this method is called from within the constructor to initialize the form. warning: do not modify this code. the content of this method is always regenerated by the form editor.
+records the serial number of the xml file containing certificates of the recovery service.
+ provides the errors for the batchcreatevariable request. 
+ the rules whose actions are set to count by the web acl, regardless of the action that is set on the rule. this effectively excludes the rule from acting on web requests. 
+ queries weights layer memory descriptor. 
+ returns true if field type is set (has been assigned a value) and false otherwise 
+populates the collection of known build targets that this parser will use to construct an action graph using all build files inside the given project root and returns an optionally filtered set of build targets.
+ get an attribute value by oid.
+ creates a counter implementation that records the maximum count per second within a specific interval.
+ the quantized type of output tensor that needs to be converted. defaults to dt_qint32 
+creates an instance from a udb partition.
+ the id of the aws account that contains the dashboard that you're listing versions for. 
+ decreases the size of the admission window and increases the main's protected region. 
+ return the associated primitive category for this primitive objectinspector.
+called when a parent is expanded.
+ invoked on node. returns true or null to continue looping. the reason why it returns a boolean is because when jerry is used in nashorn, when javascript method returns nothing it means it's not false.
+ the maximum number of intents to return in the response. the default is 10. 
+when zk is working both files should be returned
+get average calculation of various numbers as a bigdecimal.  null values will not be counted.
+get all databases in a catalog whose names match a pattern.
+return all the keys of the given class.
+ the id for the aws account that the group is in. currently, you use the id for the aws account that contains your amazon quicksight account. 
+ sets the play/pause button states.
+ the response status. 
+ the error message from the last attempted delivery. 
+ the model selection expression for the route response. supported only for websocket apis. 
+ invoked when the client is disconnected from the media browser.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+sets the message explaining the invitation.
+flush out the collected characters by sending them to the trace listener.  these characters are never written to the real writer (m_writer) because that has already happened with every method call. this method simple informs the listener of what has already happened.
+create a znode and save some data
+ the id of the aws account id of the customer for the connection. 
+gets assertion consumer service for artifact binding.
+removes all the entries added into tags.
+returns all agents (string jid values) in the workgroup.
+use this method only if necessary to validate one query against another. if you are just validating against a baseline file use one of the simpler interfaces that will write the validation query for you.
+ a list of users in the group. 
+ the simple filling mode, one tuple per storage record. 
+ removes the given thing from the billing group. 
+ the arn of the iam service role to use to publish amazon simple notification service (amazon sns) notifications for maintenance window run command tasks. 
+ the audio host url. 
+return value of hyper parameters used for this grid search.
+ create a prime number of 25 bits length.
+initialize the layout with starting values.
+convenience method to return the default waitstrategy.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+checks whether the provider may be changed using permission 'currenttime.setprovider'.
+the entry that was affected.
+get the list of all the pending queries in the queue
+ filters the results by compliance.   the allowed values are compliant, non_compliant, and not_applicable. 
+ constructor for the tombstone, avoids use of atomic_helper in case this class is loaded before the atomic_helper. apparently this is possible on some android platforms.
+ an autoscalingthresholds object with the upscaling threshold configuration. if the load exceeds these thresholds for a specified amount of time, aws opsworks stacks starts a specified number of instances. 
+ getexclusivequeuedthreads returns all exclusive waiting threads
+ update the values for whether this pathname exists in the private and shared file systems.
+returns the search's name if it was named.
+ the id of the subnet in a vpc to which you would like to have a connectivity from your ml compute instance. 
+ called when edit dialog is showing.
+test enum array created using builder (registered).
+ perform the build. 
+ should be called when a checkpoint is completed. 
+ starts a task to estimate the quality of the transform.   when you provide label sets as examples of truth, aws glue machine learning uses some of those examples to learn from them. the rest of the labels are used as a test to estimate quality.   returns a unique identifier for the run. you can call getmltaskrun to get more information about the stats of the evaluationtaskrun. 
+returns a reversed version of this function. this may be useful in a recursive context.
+ the arn of the dataset group. 
+creates a permutation from an array.
+reads a byte value from the specified memory address.
+ starts the joy without the web application.
+get the name of this type.
+the list of attributes for a replaceable item.
+ the amazon resource name (arn) of the application. 
+ the status of the task invocation. 
+ test form authentication of a secured servlet and validate that there is a securityassociation setting subject.
+ who created the component. 
+loads a view and shows an error message if the view can not be loaded.
+removes the given tag from this function.
+if set to filmstandard, adds dynamic range compression signaling to the output bitstream as defined in the dolby digital specification.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+ensure that the service is found and enabled in the service registry.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+sets the paint to use when drawing the ninepatch.
+removes all the entries added into tags.
+ check whether the addsubshift match rule in aarch64nodematchrules does work for sub operation with int type and check if the expected lir instructions show up.
+ creates an utf8string that contains `length` spaces.
+collects all interfaces of a class node, but reverses the order of the declaration of direct interfaces of this class node. this is used to make sure a trait implementing a,b where both a and b have the same method will take the method from b (latest), aligning the behavior with categories.
+ sets the progress to the specified frame. if the composition isn't set yet, the progress will be set to the frame when it is.
+ returns true if this rule class outputs a default executable for every rule.
+stands in the lock wait queue for the current lock holder.
+set the sensor type of this zone
+get the status of a path
+ an optional description for the update. 
+maximum average light level of any frame in the coded video sequence, in units of candelas per square meter. this setting doesn't have a default value; you must specify a value that is suitable for the content.
+loads an existing ehcache from the cache manager, or starts a new cache if one is not found.
+ an enumeration token that allows the operation to batch the next results of the operation. 
+ read the entire buffer.
+ factory method for constructing an "empty" serializer; one that outputs no properties (but handles json objects properly, including type information)
+ sets every the max aspect ratio of every child activity that doesn't already have an aspect ratio set.
+ creates a new image. this request will create a new image along with all of the configured output resources defined in the distribution configuration. 
+ marshall the given parameter object.
+ the capacity units consumed by the entire transactwriteitems operation. the values of the list are ordered according to the ordering of the transactitems request parameter. 
+ sets all argument and receiver guards.
+ part of the core set of features that should be supported by all db types 
+ the maximum number of items to return with this call. the default value is 100 and the maximum value is 100. 
+creates a new instance of shanalyzer.
+request the database structure, aka dbstruct
+get the ssl engine for a given connection.
+ find the _fields constant that matches name, or null if its not found.
+dispatch a command. write a command on the channel. the command may be changed/wrapped during write and the written instance is returned after the call. this command does not wait until the command completes and does not guarantee whether the command is executed successfully.
+ returns this * val; creates new vector 
+ test the behaviour of service stop logic.
+ the id of the task in the maintenance window. 
+extract date values from time series object
+ get the translation required to place a given source coordinate at the center of the screen, with the center adjusted for asymmetric padding. accepts the desired scale as an argument, so this is independent of current translate and scale. the result is fitted to bounds, putting the image point as near to the screen center as permitted.
+ the state of the modification to the configuration of byol. 
+creates a popupdialog above the search button displaying matching contacts
+get the unique id for this operator
+whether the response received was a fallback as result of being rejected via sempahore
+a cogen for hash maps.
+ a list of any errors encountered when sending the messages to the channel. 
+ deletes a specified approval rule template. deleting a template does not remove approval rules on pull requests already created with the template. 
+generic helper function overridden on instantiation to perform a specific operation on the given file system using the given path which may result in an unresolvedlinkexception.
+ create an instance 
+ convenience override of getdisplaynames(ulocale, comparator, string) that uses the default collator for the locale as the comparator to sort the display names, and null for the matchid.
+determine the positions for the views. this is the main part of the algorithm.
+ create a proxy instance whose methods invoke rpcs. 
+get the root node for lexing the document.   children can be added such that matching patterns can be further parsed if required.
+ returns a list of all the available maintenance tracks. 
+ logs a warning message indicating activationconfigproperty will be ignored since it is not allowed by resource adapter
+ emits the date time to be displayed in the disclaimer. 
+open a tag; save on stack.
+gets the length of this duration in seconds assuming that there are the standard number of milliseconds in a second.  this method assumes that there are 1000 milliseconds in a second. all currently supplied chronologies use this definition.  this returns getmillis() / 1000. the result is an integer division, so 2999 millis returns 2 seconds.
+send a warning log message.
+constructs a new invalidfilteroptionexception with the specified error message.
+set the log level for the logger found by name (or created if not found).
+convert the row to a string representation.
+sets the text color of the search and suggestion text.
+set whether or not the fab should be displayed.
+ indicates whether source/destination checking is enabled. a value of true means that checking is enabled, and false means that checking is disabled. this value must be false for a nat instance to perform nat. 
+blocks the executing thread until at least one server has started.
+save user entered and verified transcription in to lexicon format
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+ provides the list of option group memberships for this db instance. 
+returns the popularity data sorted according to their value.
+ checks if two parameterized types are exactly equal, under the variable replacement described in the typevarmap.
+ the pagination token. 
+returns a list of session ids for which there are logs. the type of logs that are available depends on the log types provided by the driver. an included session id will at least have server logs.
+ setup input and output formats and optional reducer.
+this is a utility method for subclasses so they can easily register which folders contain plugins
+reruns default nodemode for given filter node.
+the result for chapter is good.
+this is part of the internal api. this is a get request.
+ model tests for hasonlyreadonly
+ returns the class where the method is actually declared
+ the hash value used to explicitly determine the shard the data record is assigned to by overriding the partition key hash. 
+returns a validation based on a boolean condition. if the condition is true, the validation succeeds, otherwise it fails.
+clears this session from the exchange, removing the attachment and making any changes to the response necessary, such as clearing cookies.
+ starts the data read pipeline
+construct a new router for the given route builders.
+ reserved for future use. 
+ the demographic information for the endpoint, such as the time zone and platform. 
+ call rollback on the underlying transaction object
+gets whether persistence is enabled for this data region. all caches residing in this region will be persistent.
+ the log publishing options configured for the elasticsearch domain. 
+ get the names of the sheets from the excel workbooks and let the user select some or all of them.
+ the date and time that the data set was last updated, in iso 8601 format. 
+ sets item background on the content of the navigation view. 
+notes the name of the target so it can be logged if it generates any messages.
+returns amount of subscribers to this topic across all redisson instances. each subscriber may have multiple listeners.
+calculates the maximum value on a given column. the value is returned with the same data type of the column.  litepal.max(&quot;person&quot;, &quot;age&quot;, int.class);  you can also specify a where clause when calculating.  litepal.where(&quot;age &gt; ?&quot;, &quot;15&quot;).max(&quot;person&quot;, &quot;age&quot;, integer.type); 
+returns the password to use when joining this conference room. this is an optional value and may return null.
+open the given rom and return an array containing its contents. 
+ the url of the websocket. 
+ the amazon resource name (arn) of the iam role to disassociate from the aurora db cluster, for example arn:aws:iam::123456789012:role/auroraaccessrole. 
+ peek the last signal
+ the time stamp for the alarm history item. 
+utility method, which can be used to start metastore instances with specific configurations different from the default.
+list of actions that have been created in the schedule.
+the method tries to make the distribution of splits more uniform. all nodes are arranged into a maxheap and a minheap based on the number of splits that are assigned to them. splits are redistributed, one at a time, from a maxnode to a minnode until we have as uniform a distribution as possible.
+ invokeany(empty collection) throws iae
+ the id of the repository. 
+ mixes longs a, b, and c, and returns the final value of c.
+ end of "dirfiles" tests 
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+ the unique id of the change set. 
+ gets a list of the vpcs that were created by other accounts and that can be associated with a specified hosted zone because you've submitted one or more createvpcassociationauthorization requests.   the response includes a vpcs element with a vpc child element for each vpc that can be associated with the hosted zone. 
+is lock held by the thread or cache version.
+implementation is provided by the parent class. cannot be overridden.
+ returns true if field type is set (has been assigned a value) and false otherwise 
+ the criteria that define the dimensions for the segment. 
+ an input option that can be set to either start_evaluation or skip_evaluation. start_evaluation (the default value), stops the aws agent from collecting data and begins the results evaluation and the findings generation process. skip_evaluation cancels the assessment run immediately, after which no findings are generated. 
+ move the cursor to the next row. return false if there are no more valid positions, generally indicating that the end of the data structure has been reached.
+ the sns topic arn. 
+ default native constructor. 
+ the date and time when the workflow run completed. 
+ returns the multi part upload id.
+gets the social spy level the user is assigned. this is zero by default.
+returns the mouse action type so the caller can determine which kind of action was performed.
+ the date and time, in iso 8601 format, when the event occurred. 
+constructs a new organizationnotinallfeaturesmodeexception with the specified error message.
+creates the taskdescription to the specified values.
+ adds a listener that will be notified when any message or object is received from one of the clients. note about messagelistener multithreading: on the server, message events may be delivered by more than one thread depending on the server implementation used.  listener implementations should treat their shared data structures accordingly and set them up for multithreaded  access.  the only threading guarantee is that for a single hostedconnection, there will only ever be one thread at a time and the messages will always be delivered to that connection in the  order that they were delivered.  this is the only restriction placed upon server message dispatch pool implementations.   
+relocation context for a specific elf image and relocation table
+verify a logging event at the warn level with the given message and throwable.
+return storage plugin config for certain plugin name
+ specifies the amazon resource name (arn) of the log group to which cloudtrail logs will be delivered. 
+ convert the builder into its final string representation.
+ post event to the eventbus using the timestamp given by attime. 
+invalidates this session then unbinds any objects bound to it.
+ model tests for specialmodelname
+ mock block manager internal state for decrement safe block.
+runs the task in the executor.
+returns the video configuration form.
+ gets the value of the 'address1' field.
+gets the combined errors as an exception
+ creates the list of activities from the string arrays.
+ set this as an isolated edge. 
+ invoke the request using the http client. assumes credentials (or lack thereof) have been configured in the executioncontext beforehand.
+required. enables connections from applications outside of the vpc that hosts the broker's subnets.
+executes a js script on this runtime and returns the result as a double. if the result is not a double, then a v8resultundefinedexception is thrown.
+synchronize pipeline by reading all responses. this operation close the pipeline. whenever possible try to avoid using this version and use pipeline.sync() as it won't go through all the responses and generate the right response type (usually it is a waste of time).
+ a value that indicates whether the db cluster has deletion protection enabled. the database can't be deleted when deletion protection is enabled. by default, deletion protection is disabled. 
+ constructs a new throwable with null as its detail message.
+get all the keys contained by sub configurations.
+ information about the settings for the run to be scheduled. 
+resolves the aggregator pointed by this path using the given root as a point of reference.
+ marshall the given parameter object.
+deletes the message from the database. also notifies the appropriate model listeners.
+reads from a file generated from a collection of elements and verifies that the elements read are the same as the elements written.
+read a frame slot that is guaranteed to be of the desired kind (either previously checked by a guard or statically known).
+creates new copy of this vector.
+ the initial status of the qualification type.   constraints: valid values are: active | inactive 
+ getrejectedexecutionhandler returns handler in constructor if not set
+searches the hashtree structure for the given key. if it finds the key, it returns the hashtree mapped to the key. if it finds nothing, it returns null.
+set offset for the row per column family.
+ log with object list 
+method looks at children and returns list of expressions in strings.
+ contains the new allocatedstorage size for the db instance that will be applied or is currently being applied. 
+ create mem references for the external entry points; then delete the table.
+ obtains the name that has been associated with this fragment. a fragment will always have a name and it will be unique within the set of all fragment and module names.
+set average current value of this anomaly.
+ send the textures to the two eyes.
+ defines the time to live for documents in the collection
+ indicates whether the volume is deleted on instance termination. for amazon ec2 auto scaling, the default value is true. 
+ validate this tree. for testing.
+ returns a dot format digraph with the given name. nodes will be labeled with the word and edges will be labeled with the dependency.
+ gets detailed information about the specified lifecycle policy. 
+parses an object data segment, as defined by etsi en 300 743 7.2.5.
+retrieves a contexthubclientbroker object with a matching pendingintent and context hub id.
+retrieve the entitypersister that this queryspace refers to.
+ only select tasks which were last assigned to an owner like the given value. the syntax that should be used is the same as in sql, eg. %activiti%.
+ an array of objects that summarize each forecast's properties. 
+ called if a spec is skipped, for example because it is marked with @ignore.
+simplified method form for invoking the gethostedzonecount operation.
+does a shrink selection operation on a graph.
+called when entities are moving to check if they are inside a liquid
+called by the accessibility delegate to initialize an accessibility event.  default implementation adds item count and scroll information to the event.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+ returns a clone of the given object. 
+ callback function called when client sends back a provisional response. 
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+the drawable that should be used to indicate progress while downloading the image. corresponds to the view attribute android:indeterminatedrawable. if left blank, the platform's standard indeterminate progress drawable will be used.
+this resolves the correct bean for the environment.
+ set the motor speed in radians per second. 
+simplified method form for invoking the describesnapshots operation with an asynchandler.
+ the id of the savings plan. 
+ the typeparametrizable of the container. can be either a referencetypedeclaration or a methodlikedeclaration
+ test that a fault while downloading edits does not prevent future checkpointing
+checks whether an exception matches.
+ describes an existing iam policy assignment, as specified by the assignment name. 
+if the locale of the cart does not match the current locale, then this extension handler will attempt to translate the order items.   the property "clearcartonlocaleswitch" can be set to true if the implementation desires to  create a new cart when the locale is switched (3.0.6 and prior behavior).
+ indicates whether the cluster is encrypted. if the cluster is encrypted and you provide a value for the kmskeyid parameter, we will encrypt the cluster with the provided kmskeyid. if you don't provide a kmskeyid, we will encrypt with the default key. in the china region we will use legacy encryption if you specify that the cluster is encrypted. 
+ called when blaze shuts down due to a crash. modules may use this to flush pending state, but they must be careful to only do a minimal number of things. keep in mind that we are crashing so who knows what state we are in. modules rarely need to implement this.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+ represents the failure of a job as returned to the pipeline by a job worker. used for custom actions only. 
+sets included set of names that will be considered during configuration.
+ a list of dbengineversion elements. 
+check that affinity awareness functionality works fine for custom partitions count.
+ creates an initialized emptytargetinfo.
+after the block pool has contacted the nn, registers that block pool with the secret manager, updating it with the secrets provided by the nn.
+ authorized the given ddlwork. it is only for the interim time while ddltask and ddlwork are being refactored.
+ the key schema for the global secondary index. 
+read passengers data from csv file.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+get a topology id from the name of a topology.
+ stop the web server 
+ wait until a debugger attaches.  as soon as the debugger attaches, this returns, so you will need to place a breakpoint after the waitfordebugger() call if you want to start tracing immediately.
+computes the bitwise and of this container with another (intersection). this container as well as the provided container are left unaffected.
+indicates that a new contact has been received for a search.
+ indicates the desired maximum power level.  the level parameter must be one of no_requirement, power_low, power_medium, or power_high.
+put a key/int pair in the jsonobject.
+ wait the 'rename field' form is closed 
+this method is used to set the virtualization mode corresponding to the gpu. for kepler &tm; or newer fully supported devices.
+ check that a httpget request is with given remote host. 
+ reads an integer setting through the cache.
+ returns a valid cuboid that best matches the request cuboid. 
+return whether the subscription's group is disabled.
+set the new content description formatter and reformat the current content description.
+ handles the logic to start writing an array
+ aws directory service for microsoft active directory allows you to configure and verify trust relationships.   this action verifies a trust relationship between your aws managed microsoft ad directory and an external domain. 
+ the information about the ec2 instance associated with the activity that prompted guardduty to generate a finding. 
+ the property used to configure acceptance of webhooks in an ip address range. for ip, only the allowediprange property must be set. this property must be set to a valid cidr range. 
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+allocate new information of a packet.
+ verify schema change for read only table
+ this is an efficient implementation quick sort algorithm without recursive. besides sorting the first n elements of array arr, the first n elements of array brr will be also rearranged as the same order of arr.
+ perform basic connectivity test.
+promotes the try8 to a validation that returns an exception on the failure side and its result on the success side.
+get a delegation token for the user from the jobtracker.
+constructs an action for displaying a panel that allows the user to compare functions.
+ returns an array containing the string names in this object. this method returns null if this object contains no mappings.
+ the version number of the pipeline. if you do not specify a version, defaults to the current version. 
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+returns the addresses that are to indicate the difference of this comparison type for this object.
+ sets the wrapped action. 
+checks if comparator is in the case insensitive mode.
+ the charge to your account regardless of whether you are creating any domains using the instance offering. 
+ triggered when cancel button is clicked.
+ decision method for finding a wider type. 
+create signature for jwt header and payload using a private key.
+ tests simple list state queryable state instance. each source emits (subtaskindex, 0)..(subtaskindex, numelements) tuples, which are then queried. the list state instance add the values to the list. the test succeeds after each subtask index is queried and the list contains the correct number of distinct elements.
+this method returns a string representing the relative date by comparing the calendar being passed in to the date / time that it is right now.
+parse a single type out of the signature, starting at the beginning of the remaining part of the signature. for example, if the first character of the remaining part is "i", then this method will return "int", and the "i" will be consumed. arrays, reference types, and basic types are all handled.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+ the name of the resource data sync you want to update. 
+ the amazon s3 bucket. 
+ key of the row to be completely deleted.
+returns all active (that is, not old, archived ones) from the database. (currently the active handling is not available)
+creates a compositelist of two lists.
+ returns information about the domain, including when the domain was created, the number of items and attributes in the domain, and the size of the attribute names and values. 
+ the user canceled account selection.
+ test the property 'enumstring'
+ returns an approximation of the bit rate consumed by the stream in bit per seconde.
+ optional metadata that you can apply to the virtual router to assist with categorization and organization. each tag consists of a key and an optional value, both of which you define. tag keys can have a maximum character length of 128 characters, and tag values can have a maximum length of 256 characters. 
+ the current status of the requested operation in the system. 
+ the tier of the application component. supported tiers include dot_net_core, dot_net_worker, dot_net_web, sql_server, and default. 
+ tests upload of content to a remote service.
+returns true if this node can accept any of the given data flavors for dropping.
+returns the extension of a file or optional.empty() if the file does not have one (no . in name).
+ the authentication key for bgp configuration. this string has a minimum length of 6 characters and and a maximun lenth of 80 characters. 
+ provides range filters for multiple attributes. when providing ranges to typed link selection, any inexact ranges must be specified at the end. any attributes that do not have a range specified are presumed to match the entire range. 
+compare the supplied property value against the mask and target.
+ the arn of the resource to which to add metadata tags. required. 
+builds a map from orderitem to promotableorderitem.
+gets the document containing the field or fields to group.
+ the tags for the image. 
+ define an input field 
+ executor service used to scan files. if null, scanning is done in a simple for loop 
+ the date and time the opsitem was last updated. 
+ the identifier of the ip access control group. 
+ find the _fields constant that matches fieldid, or null if its not found.
+returns a copy of this config registry.
+ return columns for the schema. 
+ finds the child with the specified name and returns it as an int. returns defaultvalue if not found. 
+ test method for 'datagramchannelimpl.socket()'
+ create a basic activityoptions that has no special animation associated with it. other options can still be set.
+this is part of the internal api. this is a get request.
+ prints the stacktrace as formatted by an errorlogger. 
+ a filter that returns only training jobs with the specified status. 
+sets the exclusive upper bound for a specific index. a null value means no max is set.
+ the api protocol. 
+ the name in a user pool description. 
+scantoclass packages  eg. cn.dreampie.resource
+ a channel provider that connects via a proxy : http or socks
+ return set of any ifaces associated with mobile networks since boot. interfaces are never removed from this list, so counters should always be monotonic.
+set the factory for stanza id sources to use.
+ for keep ordering in the same category
+ tests no double encoding of existing query parameter
+filter networks by network driver.
+determines if the two programs have the same equates specified at the indicated address and operand
+processes read and write events and registration requests.
+ find the _fields constant that matches fieldid, throwing an exception if it is not found.
+returns the user name of this blogs entry.
+ should be used only by console commands
+read the log files at the target path and return the contents as a single string. this method will assert that the correct number of files is found.
+ returns a copy of this aggcall with a given alias. 
+read the type of acceleration structure used.
+ compute the number of bytes that would be needed to encode an enum field, including tag. the provided value is the numeric value used to represent the enum value on the wire (not the enum ordinal value).
+utility method for serializing an object using the specified coder.
+ if the result of the previous request to listvocabularies was truncated, include the nexttoken to fetch the next set of jobs. 
+returns the unique enhanceddebuggerwindow instance available in the system.
+removes all the entries added into tags.
+create a provider out of a regular expression string
+ the current status of the task being executed. 
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+briefly changes the backgroundcolor of the specified element yellow. useful for debugging.
+ defaults to dt_float 
+ the error message that aws config returned when the rule last failed. 
+ the current state of the fleet. 
+ when assigning ports to worker slots start at minport.
+tests that allocation of opportunistic containers should be spread out.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+gets the collection node which the node is affiliated with.
+ the bundle identifier that's assigned to your ios app. this identifier is used for apns tokens. 
+ the name of a logical container where backups are stored. backup vaults are identified by names that are unique to the account used to create them and the region where they are created. they consist of lowercase letters, numbers, and hyphens. 
+ test the property 'datetime'
+returns rate limiter instance by name
+changes the checked state of this button.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+convert model to request parameters and redirect to the given url.
+simplified method form for invoking the updatetable operation.
+override to set your value required number of gasprice data from transactions to override default value on recount
+ waits for specific amount of millis using 'thread.sleep()'. rethrows interruptedexception.
+ default native constructor. 
+ retrieves the number of characters in a given column. 
+ saving the first program's location (the left listing) in the navigation history. the second program's location (the right listing) isn't saved since the navigation is relative to a program in the tool's main listing. also, if the second program's locations were saved in the history, their program wouldn't be found and would cause errors when restarting the application with the tool and primary program displayed, but  no diff program.
+finds pets by tags multiple tags can be provided with comma separated strings. use tag1, tag2, tag3 for testing.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+specifies the value of an int64_t uniform variable for the specified program object.
+ test that we kill apps using an old provider when we change the provider setting, even if the new provider is not the one we intended to change to.
+ the arn of a device. 
+ adds the specified string list header, joined together separated with commas, to the specified request. this method will not add a string list header if the specified values are null or empty. 
+ constructs a negexpr(expr, expr) grammar chunk.
+ returns the digest bytes. 
+ a continuation token, if this is a continuation call. 
+gets the total number of millis elapsed in this year at the start of the specified month, such as zero for month 1.
+ returns the angle between two latlngs, in radians. this is the same as the distance on the unit sphere.
+ mark the passage of time and decay the current rate accordingly.
+ the name of the direct connect gateway. 
+create a button with the given text.
+merges multiple instances into this instance.
+returns iterator over map entries collection. map entries are loaded in batch. batch size is defined by count param. 
+ arn of the iam role that amazon kinesis analytics can assume to access the stream on your behalf. 
+this method calls setflag(flag, boolean)
+processes the given array of bytes and finishes the mac operation. a call to this method resets this mac object to the state it was in when previously initialized via a call to init(key) or init(key, algorithmparameterspec). that is, the object is reset and available to generate another mac from the same key, if desired, via new calls to update and dofinal. (in order to reuse this mac object with a different key, it must be reinitialized via a call to init(key) or init(key, algorithmparameterspec).
+ specifies the engine specific parameters type. 
+ the id of the multipart upload. this value is also included as part of the location. 
+ the amazon resource name (arn) for the data source. 
+ gets the zone to pick up for this instance.
+ tests join program with replicated data source.
+create a new template expression
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+ creates random candidate generator, renders it to xcontent and back to new instance that should be equal to original
+ describes one or more of your vpc peering connections. 
+run with a forked vm, using the specified command line arguments.
+invoked when the debuggee raises an exception.
+convert from an input stream, closing the stream afterwards.
+ test the property 'namespacestring'
+ clear the entire metadatareader cache, removing all cached class metadata.
+creates a new annotation extractor for a byte code element with an index.
+ the name of the repository that contains the pull request source and destination branches. 
+ returns information about all block storage disk snapshots in your aws account and region.   if you are describing a long list of disk snapshots, you can paginate the output to make the list more manageable. you can use the pagetoken and nextpagetoken values to retrieve the next items in the list. 
+ whether this expression is an explicit unknown template bound. 
+ get a variables and search in the task scope and if available also the execution scopes.
+creates a new background pressed action object.
+constructs a restorecommand instance that restores the database from a given source file. 
+write a hashmap to a parcel, class of key and value are both string
+ processes this element with the provided dofnrunner. 
+tests that the forwarded resource can utilize a cdi bean
+ test ensures success in the presence of a single node failure.
+simplified method form for invoking the describependingmaintenanceactions operation.
+ formats a byte array as a string of hex digits.
+returns timeout for checkpoint read lock acquisition.
+compares peer's hostname with the one stored in the provided client certificate. performs verification with the help of provided hostnameverifier.
+transitions the pending job to the current job is a thread safe way.
+decrypts and recovers the key pair, as well as generating public key in openssh format.
+gets ordered list of ignite instance names.
+ the test's stop time. 
+ find the _fields constant that matches fieldid, or null if its not found.
+ check if you are starring a repository
+ tests that a retryable error is retried enough times. 
+ finds layoutspec class in the given file. 
+ the name of the subscription.   constraints: the name must be less than 255 characters. 
+loads a crf classifier from an inputstream, and returns it. this method does not buffer the inputstream, so you should have buffered it before calling this method.
+ calculates and sets x translation values on given transformation.
+get the actual length used for the fieldpacker.
+adds a list of breakpoints to the breakpoint manager.
+ updates user details for a specified user id. currently, only licensetype updates are supported for this action. 
+ the name of the thing type, if the thing has been associated with a type. 
+returns an iterator over the elements in this list in proper sequence.
+reads fields from provided reader.
+adds a listener that will be notified of changes in our participation in the room such as us being kicked, join, left...
+callback method invoked when an endpoint is closed.
+create a sha1 digest from a lua script.
+gets a copy of this partial with the value of the specified field increased. if this partial does not support the field, an exception is thrown.  if the addition is zero, then this is returned. the addition will overflow into larger fields (eg. minute to hour). if the maximum is reached, the addition will wrap.
+removes a column from the table model
+test json serialization of form data
+get the data used for this client.
+ copies the specified db parameter group. 
+ returns true if field corresponding to fieldid is set (has been assigned a value) and false otherwise 
+ create a bluetoothgattserver proxy object.
+ the name of the configuration set for which email sending is disabled. 
+ a friendly description of the rule group. you cannot change the description of a rule group after you create it. 
+ returns pending triggers to be emitted.
+ getwaitqueuelength throws illegalmonitorstateexception if not locked
+returns the base pattern from the forall ce
+returns additional metadata for a previously executed successful request, typically used for debugging issues where a service isn't acting as expected. this data isn't considered part of the result data returned by an operation, so it's available through this separate, diagnostic interface.  response metadata is only cached for a limited period of time, so if you need to access this extra diagnostic information for an executed request, you should use this method to retrieve it as soon as possible after executing a request.
+the quantity for which a match must be found using the rule. this generally equates to order item quantity (e.g. 2 shirts matching the rule are required in order to receive a discount)
+read rest of packet string from byte buffers.
+ lists the iam groups that have the specified path prefix.   you can paginate the results using the maxitems and marker parameters. 
+the damping coefficient for when the suspension is expanding. see the comments for setwheelsdampingcompression for how to set k.
+creates a new materialized frame object with the given frame descriptor that can be used to store values.
+get the url where some job progress information will be displayed.
+get the name of the package in dotted format.
+ the transfer data. 
+ called when we are in the process on starting an activity. 
+applies node label updates from changes in underlying storage.
+ constructor for inflating from xml.
+ returns original domain values for all columns including response column. 
+interrupt the writing thread and wait until it dies.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+ stops the grid client.
+indicate if message was constructed with a uuid.
+attempts to write the contents of this buffer to a channel.
+ the cloudwatch alarm name. 
+utility method for generating control sequences. takes a collection of byte arrays, which contain the components of a control sequence, concatenates them, and prints them to the terminal.
+unzip the file by keyword.
+returns a string representation of this object. this is useful for testing and debugging. sensitive data will be redacted from this string using a placeholder value.
+sets the values of this quaternion to the slerp from itself to q2 by changeamnt
+ the name of the variable. 
+ a list of the cache node ids which need to be rebooted for parameter changes to be applied. a node id is a numeric identifier (0001, 0002, etc.). 
+ returns the user accounts and their properties for the serverid value that you specify. 
+ pointers to the image data planes 
+ atomically replaces the entire map by the copy of the specified map.
+ not available in tomcat 8.5.
+ the api stage. 
+create mock print service callbacks.
+ indicate the source (file, line number) this specific configuration node comes from. this is used to offer relevant diagnostic messages
+ returns the default registry that loads providers via the java service loader mechanism.
+ the amazon resource name (arn) of the task to delete. 
+returns a details object representing an incompatible schema pair, including error details.
+ vertical image offset. 
+ the amazon resource name (arn) of the phone number. 
+ the order in which to sort the results. valid values are asc and desc. by default ( asc), task definitions are listed lexicographically by family name and in ascending numerical order by revision so that the newest task definitions in a family are listed last. setting this parameter to desc reverses the sort order on family name and revision so that the newest task definitions in a family are listed first. 
+ the name of the aws cloud map service to use. 
+returns the size of this part, in bytes.
+ the title of the service provided by the vendor in the amazon marketplace. 
+ find the _fields constant that matches fieldid, throwing an exception if it is not found.
+callback about an entity being loaded.  this might indicate a proxy or a fully initialized entity, but in either case it means without a separate sql query being needed.
