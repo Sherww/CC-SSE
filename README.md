@@ -12,12 +12,14 @@ You can find more details, analyses, and baseline results in our paper "Towards 
 * The model training and prediction was conducted on a machine with Nvidia GTX 1080 GPU, Intel(R) Core(TM) i7-6700 CPU and 16 GB RAM, the operating system is Ubuntu.
 * Please refer to the paper for the detailed parameters of the model.
 ### CodeBERT Model
-cd codebert/
-cd codebert_obj/ or codebert_sub/
+* cd codebert/
+* cd codebert_obj/ or codebert_sub/
 #### Dependency
 * pip install torch
 * pip install transformers
-* Train: train.sh
-* Evaluate: accuracy.py
+#### Train 
+* train.sh
+#### Evaluate
+* python accuracy.py
 # Contact us
 Mail: xiaoweizhang@smail.nju.edu.cn
