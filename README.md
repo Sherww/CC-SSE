@@ -23,3 +23,5 @@ You can find more details, analyses, and baseline results in our paper "Towards 
 * python accuracy.py
 # Contact us
 Mail: xiaoweizhang@smail.nju.edu.cn
+
+[![OSCS Status](https://www.oscs1024.com/platform/badge/Sherww/CC-SSE.svg?size=small)](https://www.oscs1024.com/project/Sherww/CC-SSE?ref=badge_small)
