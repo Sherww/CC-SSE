@@ -9,7 +9,7 @@ You can find more details, analyses, and baseline results in our paper "Towards 
 * [/CC-SSE/step5 abbr/](https://github.com/Sherww/CC-SSE/tree/main/step5%20abbr). This folder contains inline comments before and after completion that apply to code abbreviation extensions.
 * [/CC-SSE/step6 javadoc/](https://github.com/Sherww/CC-SSE/tree/main/step6%20javadoc%20statistics). This folder contains the sampled Javadoc data set and the corresponding parser results. The data set of JavaDoc could be found in https://drive.google.com/drive/folders/1Lr1Sk6zwOf2bw3EdqRJLEjv-lDZ34dtI
 ## Train
-* The model training and prediction was conducted on a machine with Nvidia GTX 1080 GPU, Intel(R) Core(TM) i7-6700 CPU and 16 GB RAM, the operating system is Ubuntu.
+* The model training and prediction was conducted on a machine with Nvidia GTX 1080 GPU, Intel(R) Core(TM) i7-6700 CPU and 16 GB RAM. The operating system is Ubuntu.
 * Please refer to the paper for the detailed parameters of the model.
 ### CodeBERT Model
 * cd codebert/
