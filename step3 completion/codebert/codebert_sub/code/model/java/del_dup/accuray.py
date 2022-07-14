@@ -50,14 +50,14 @@ def sub():
     precision = precision_score(test,result,average='macro',zero_division =1)
     print("sklearn recall:{},precision:{}".format(recal,precision))
     print("sklearn F1-score:{}".format((2*recal*precision)/(recal+precision)))    
-    pre = precision_score(test,result,average='macro',zero_division =1)
+#     pre = precision_score(test,result,average='macro',zero_division =1)
     # 
-    rec = recall_score(test,result,average='macro',zero_division =1)
+#     rec = recall_score(test,result,average='macro',zero_division =1)
     # 
-    f1_scores=f1_score(test,result,average='macro')
-    print(pre)
-    print(rec)
-    print(f1_scores)
+#     f1_scores=f1_score(test,result,average='macro')
+#     print(pre)
+#     print(rec)
+#     print(f1_scores)
     # 
 if __name__ == '__main__':
     hebing_sub()
