@@ -38,12 +38,16 @@ with open('result_sub_yizhi_deldup.txt','w',encoding='utf-8')as f2:
             b.append(codes[i]+","+nees[i])
     for i in range(len(a)):
         f2.write(a[i])
-
-pre = precision_score(test,result,average='macro',zero_division =1)
+recal = recall_score(test,result,average='macro',zero_division =1)
+precision = precision_score(test,result,average='macro',zero_division =1)
+print("sklearn recall:{},precision:{}".format(recal,precision))
+print("sklearn F1-score:{}".format((2*recal*precision)/(recal+precision)))
+    
+# pre = precision_score(test,result,average='macro',zero_division =1)
 # 
-rec = recall_score(test,result,average='macro',zero_division =1)
+# rec = recall_score(test,result,average='macro',zero_division =1)
 # 
-f1_score=f1_score(test, result, average='macro')
-print(pre)
-print(rec)
-print(f1_score)
+# f1_score=f1_score(test, result, average='macro')
+# print(pre)
+# print(rec)
+# print(f1_score)
