@@ -228,7 +228,8 @@ def kstest_complete(a):
 
 
 if __name__=='__main__':
-    name=['sub','obj']
+    # name=['sub','obj']
+    name=['pre']
     for a in name:
         # #检验是否是正态分布
         # kstest_ellipsis(a)
