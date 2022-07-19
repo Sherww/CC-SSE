@@ -2,7 +2,18 @@
 import random
 def reverse(s):
     return ' '.join(s.split(' ')[::-1])
-#合并主语宾语数据
+
+def hebing2():
+    with open('D:\\short_comment\\step3 completion\\codebert\\result\\codebert_pre\\code\\model\\java\\yizhi_result\\result_pre_all_succ_or_fail.txt','r',encoding='utf-8')as f:
+        data=f.readlines()
+        datts=[]
+        for dat in data:
+            datt=dat.replace('\n','')+','+'pre'+'\n'
+            datts.append(datt)
+    with open('pre_test.txt','w',encoding='utf-8')as ff:
+        for i in range(len(datts)):
+            ff.write(datts[i])
+
 def hebing():
     with open('D:\\short_comment\\step3 completion\\codebert\\result\\codebert_sub\\code\\model\\java\\yizhi_result\\result_sub_all_succ_or_fail.txt','r',encoding='utf-8')as f:
         data=f.readlines()
@@ -32,7 +43,6 @@ def hebing():
         
         for i in range(len(nees)):
             fff.write(nees[i].replace('\n','')+'\n')
-#数据筛选
 def sample():
     with open('sub_obj_test.txt','r',encoding='utf-8')as f:
         data=f.readlines()
@@ -40,23 +50,28 @@ def sample():
         not_nees=[]
         nees_final=[]
         nees=data
-        
+
         for da in nees:
             nee_code=da.split(',')[1]
             code=nee_code.split(' ')
             nee_comm=da.split(',')[0]
             comm=nee_comm.split(' ')
-            if len(code)>=15 and len(code)<=91 and len(comm) >=5 and len(comm) <=12:
-                nees_final.append(da)
-            else:
-                pass
+            nees_final.append(da)
+        
     random.shuffle(nees_final)
-    sample_data=random.sample(nees_final, 384)
-    sub_success=0
-    obj_success=0
-    sub_fail=0
-    obj_fail= 0  
-    for dat in sample_data:
+        
+    flag=True
+    while(flag):        
+        sample_data=random.sample(nees_final, 384)
+ 
+    # sub=0
+    # obj=0  
+
+        sub_success=0
+        obj_success=0
+        sub_fail=0
+        obj_fail= 0  
+        for dat in sample_data:
             nee=dat.split(',')[-1].replace('\n','')
             choice=dat.split(',')[-2]
             code=dat.split(',')[1]
@@ -73,11 +88,12 @@ def sample():
                 obj_fail +=1
             else:
                 print(dat)
-    print('--sub_success: ' + str(sub_success))
-    print('--obj_success: ' + str(obj_success))
-    print('--sub_fail: ' + str(sub_fail))
-    print('--obj_fail: ' + str(obj_fail))    
-
+        print('--sub_success: ' + str(sub_success))
+        print('--obj_success: ' + str(obj_success))
+        print('--sub_fail: ' + str(sub_fail))
+        print('--obj_fail: ' + str(obj_fail))    
+        flag= False
+        continue
     sub=0
     obj=0    
     for dat in sample_data:
@@ -109,8 +125,55 @@ def reverse_data():
             dats.append(dat_new)
     with open('test_sub_reverse.txt','w',encoding='utf-8')as ff:
         for i in range(len(dats)):
-            ff.write(dats[i]+'\n')                    
+            ff.write(dats[i]+'\n')       
+def sample2():
+    with open('pre_test.txt','r',encoding='utf-8')as f:
+        data=f.readlines()
+        nees=[]
+        not_nees=[]
+        nees_final=[]
+        nees=data
+        
+        for da in nees:
+            nee_code=da.split(',')[1]
+            code=nee_code.split(' ')
+            nee_comm=da.split(',')[0]
+            comm=nee_comm.split(' ')
+            nees_final.append(da)
+
+    random.shuffle(nees_final)
+    flag=True
+    while(flag):        
+        sample_data=random.sample(nees_final, 120)
+ 
+        pre_success=0
+        # obj_success=0
+        pre_fail=0
+        # obj_fail= 0  
+        for dat in sample_data:
+            nee=dat.split(',')[-1].replace('\n','')
+            choice=dat.split(',')[-2]
+            if nee == 'pre' and choice == 'success':
+                pre_success +=1
+            elif nee == 'pre' and choice == 'fail':
+                pre_fail +=1
+
+            else:
+                print(dat)
+        print('--pre_success: ' + str(pre_success))
+        # print('--obj_success: ' + str(obj_success))
+        print('--pre_fail: ' + str(pre_fail))
+        # print('--obj_fail: ' + str(obj_fail))    
+        if pre_success >=71:
+            flag= False
+            continue
+    with open('sample_pre_userstudy.csv','w',encoding='utf-8')as ff:
+        for i in range(len(sample_data)):
+            ff.write(sample_data[i])             
 if __name__=='__main__':
-    # hebing()
-    # reverse_data()
-    sample()
+    # # hebing()
+    # # reverse_data()
+    # sample()
+
+    # hebing2()
+    sample2()
