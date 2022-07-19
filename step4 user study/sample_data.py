@@ -62,7 +62,7 @@ def sample():
         
     flag=True
     while(flag):        
-        sample_data=random.sample(nees_final, 384)
+        sample_data=random.sample(nees_final, 264)
  
     # sub=0
     # obj=0  
