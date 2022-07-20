@@ -10,7 +10,7 @@ configs = {
     "source_tokenizer":"../bert-base-uncased",
     "target_tokenizer":"../phobert-base",
     "source_max_seq_len":128,
-    "target_max_seq_len":8,
+    "target_max_seq_len":16,
     "batch_size":64,
     "device":"cuda:0" if torch.cuda.is_available() else "cpu",
     "embedding_dim": 512,
